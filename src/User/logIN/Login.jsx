@@ -14,7 +14,7 @@ function Login() {
     e.preventDefault();
     try {
       // Replace with your backend URL
-      const response = await axios.post("http://localhost:3009/loginuser", {
+      const response = await axios.post("https://medical-appointment-api-uflc.onrender.com/loginuser", {
         email,
         password,
       });

@@ -36,7 +36,7 @@ const DocInfo = () => {
 </div>
 </div>
 
-<div className='flex mt-4'>
+<div className='flex mt-2'>
   <p className='text-sm'>Sort by</p>
 <div className='flex ml-2'>
 <div className='bg-blue-300 rounded-full '>
@@ -59,27 +59,27 @@ const DocInfo = () => {
 </div>
 </div>
 
-<div className='mt-4 bg-blue-200  rounded-2xl'>
-    <div className='flex p-4'>
+<div className='mt-3 bg-blue-200  rounded-2xl'>
+    <div className='flex p-3'>
         <img src={Doc} className='w-44'></img>
         <div className=' ml-4'>
         <div className='flex bg-blue-800 p-2 rounded-full'>
         <img src={year} className=''></img>
-            <p className='text-white'>15years experience</p>
+            <p className='text-white text-xs'>15years experience</p>
         </div>
        <div className='bg-blue-500 rounded-2xl p-1 mt-1'>
-       <p className='text-sm p-1 text-white'>Focus: The impact <br/> of hormonal <br/> imbalances on <br/> skin conditions, <br/>acne, hirsutism,<br/> and other skin<br/> disorders</p>   
+       <p className='text-xs p-1 text-white'>Focus: The impact <br/> of hormonal <br/> imbalances on <br/> skin conditions, <br/>acne, hirsutism,<br/> and other skin<br/> disorders</p>   
        </div>
        
         </div>
        
     </div>
     
-    <div className='bg-white w-full max-w-xs mx-auto rounded-full p-1 h-12 text-center'>  
-        <p className='text-sm text-blue-800 font-bold'>Dr John Do Alabama Ph.D</p>  
-        <p className='text-sm'>Demato-Genetics</p>  
+    <div className='bg-white w-full max-w-xs mx-auto rounded-full  h-8 text-center'>  
+        <p className='text-xs text-blue-800 font-bold'>Dr John Do Alabama Ph.D</p>  
+        <p className='text-xs'>Demato-Genetics</p>  
     </div>  
-    <div className='flex  md:flex-row mt-2 ml-12'>  
+    <div className='flex  md:flex-row mt-1 ml-12'>  
         <div className='flex ml-0 bg-white rounded-xl mr-4 w-11 h-6 mt-3 '>  
             <img src={star} className='ml-1 w-4 ' alt="Rating Star" />  
             <p className='text mt-[2px] ml-1 text-sm'>5</p>  
@@ -113,9 +113,21 @@ const DocInfo = () => {
 
 
     </div>
-    <div>
-      
-      
+    <div className='mt-4'>
+      <h2 className='text-blue-600'>Profile</h2>
+      <p className='text-xs'>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur deleniti sit consequuntur neque autem iure expedita necessitatibus dignissimos voluptate ipsam.
+      </p>
+
+      <h2 className='text-blue-600 mt-6'>Career Path</h2>
+      <p className='text-xs'>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur deleniti sit consequuntur neque autem iure expedita necessitatibus dignissimos voluptate ipsam.
+      </p>
+
+      <h2 className='text-blue-600 mt-2'>Heghlight</h2>
+      <p className='text-xs mb-12'>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur deleniti sit consequuntur neque autem iure expedita necessitatibus dignissimos voluptate ipsam.
+      </p>      
 
     </div>
        

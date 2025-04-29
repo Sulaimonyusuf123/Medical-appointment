@@ -18,7 +18,7 @@ function ResetPassword() {
     }
 
     try {
-      const response = await axios.post(`http://localhost:3009/resetPassword/${userId}/${token}`, {
+      const response = await axios.post(`https://medical-appointment-api-uflc.onrender.com/resetPassword/${userId}/${token}`, {
         newPassword: password, // Make sure to use the same field name as expected by the backend
       });
       setMessage(response.data.message);

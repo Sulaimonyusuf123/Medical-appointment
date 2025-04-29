@@ -11,7 +11,7 @@ const LoginAdmin = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.put('http://localhost:3009/loginAdmin', {
+      const response = await axios.put('https://medical-appointment-api-uflc.onrender.com/loginAdmin', {
         username,
         password,
       }, { withCredentials: true });

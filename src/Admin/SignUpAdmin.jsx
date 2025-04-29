@@ -29,7 +29,7 @@ const SignUpAdmin = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:3009/registerAdmin', {
+      const response = await axios.post('https://medical-appointment-api-uflc.onrender.com/registerAdmin', {
         username: formData.username,
         email: formData.email,
         password: formData.password,

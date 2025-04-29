@@ -8,7 +8,7 @@ function ForgPass() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3009/forgotPassword", {
+      const response = await axios.post("https://medical-appointment-api-uflc.onrender.com/forgotPassword", {
         email,
       });
       setMessage(response.data.message);

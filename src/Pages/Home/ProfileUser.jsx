@@ -127,14 +127,14 @@ const ProfileUser = () => {
           {doctorsData.map((doctor) => (
             <div
               key={doctor.id}
-              className="flex items-center mb-4 p-2 bg-blue-100 rounded-lg shadow"
+              className="flex items-center w-[365px] mb-4 p-2 bg-blue-100 rounded-lg shadow"
             >
               <img
                 src={doctor.image}
-                className="w-20 h-20 rounded-full mr-2 ml-1"
+                className="w-20 h-20 rounded-full mr-2 "
               />
               <div className="mt-2">
-                <div className="bg-white w-[270px] rounded-3xl px-5 p-2">
+                <div className="bg-white w-[260px] rounded-3xl px-5 p-2">
                   <h3 className="text-blue-800 font-semibold">{doctor.name}</h3>
                   <p className="text-gray-600">{doctor.department}</p>
                 </div>

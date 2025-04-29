@@ -8,6 +8,7 @@
         "information" : "Info",
         "img": "/fav.svg",
         "img2": "/fav.svg",
+        "per": "professional doctors",
         "img3": "/fav.svg",
         "img4": "/fav.svg"
     },
@@ -19,12 +20,14 @@
         "Department" : "Neurology",
         "information" : "Info",
         "img": "/fav.svg",
+        "per": "professional doctors",
         "img2": "/fav.svg",
         "img3": "/fav.svg",
         "img4": "/fav.svg"
     },
     {
         "id": 3,
+        "per": "professional doctors",
         "image" : "/doco.svg",
         "name" : "John Doe",
         "names" : "M.D.",
@@ -37,6 +40,7 @@
     },
     {
         "id": 4,
+        "per": "professional doctors",
         "image" : "/doc4.svg",
         "name" : "John Doe",
         "names" : "M.D.",
@@ -49,6 +53,7 @@
     },
     {
         "id": 5,
+        "per": "professional doctors",
         "image" : "/docs.svg",
         "name" : "John Doe",
         "names" : "M.D.",
@@ -63,6 +68,7 @@
         "id": 6,
         "image" : "/doco.svg",
         "name" : "John Doe",
+        "per": "professional doctors",
         "names" : "M.D.",
         "Department" : "Neurology",
         "information" : "Info",

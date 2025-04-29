@@ -57,7 +57,7 @@ function SignUp() {
     }
 
     try {
-      const response = await axios.post("http://localhost:3009/registeruser", {
+      const response = await axios.post("https://medical-appointment-api-uflc.onrender.com/registeruser", {
         username: formData.username,
         email: formData.email,
         password: formData.password,

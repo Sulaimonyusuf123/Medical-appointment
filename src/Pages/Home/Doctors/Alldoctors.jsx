@@ -7,6 +7,7 @@ import filter from '../SearchFilter/filter.svg'
 import star from '../Doctors/star.svg'
 import json from "../Doctors/doctors.json"
 import { useTheme } from '../Settings/Change/Theme'
+import SortBy from '../../SortBy'
 
 
 const Alldoctors = () => {
@@ -37,28 +38,9 @@ const Alldoctors = () => {
 </div>
 
 <div className='flex mt-4'>
-  <p className='text-sm'>Sort by</p>
-<div className='flex ml-2'>
-<div className='bg-blue-300 rounded-full '>
-<p className=' ml-4 text-sm w-12 p-[0.5px]'>A--Z</p>
+  <SortBy/>
 </div>
-
-<div className='bg-blue-200 rounded-full ml-2' >
-<Link to='/Favorites'><img src={star} className='p-1 w-6'></img></Link>
-
-</div>
-<div className='bg-blue-200 rounded-full ml-2'>
-<Link to='/Ratings'><img src={star} className='p-1 w-6'></img></Link>
-</div>
-<div className='bg-blue-200 rounded-full ml-2'>
-<Link to='/Favemale'><img src={star} className='p-1 w-6'></img></Link>
-</div>
-<div className='bg-blue-200 rounded-full ml-2'>
-<Link to='/Favefem'><img src={star} className='p-1 w-6'></img></Link>
-</div>
-</div>
-</div>
- <div className="p-4 bg-gray-100 max-w-md mx-auto rounded-lg mt-4" style={{ backgroundColor: themeStyles.backgroundColor, color: themeStyles.color }}>
+ <div className="p-1 bg-gray-100 max-w-md mx-auto rounded-lg mt-4" style={{ backgroundColor: themeStyles.backgroundColor, color: themeStyles.color }}>
         {json.map((doctor) => (
           <div
             key={doctor.id}
